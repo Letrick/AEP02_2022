@@ -1,0 +1,96 @@
+
+.pagina{
+
+padding: 0px;
+background:  #CCC;
+
+height: 300vh;
+overflow: auto;
+
+}
+
+
+
+
+
+.center {
+
+  width: 100vw;
+  height: 50vh;
+  background: #dfe0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 450px;
+  height: 250px;
+  background: 	#CCC;  
+  border-radius: 10px;
+
+}
+
+.container {
+
+justify-content: center;
+align-content: center;
+
+
+}
+
+.containerbotao {
+text-align: center;
+}
+ 
+
+#rodape {
+  z-index: 45;
+  background-color:#317951 ;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  }
+
+
+        form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+
+  height: 5em;
+}
+
+
+
+.buttoncontato {
+text-align: center;
+}
+  
+
+a {
+  text-decoration: none;
+  padding: 5px 10px;
+
+}
+
+
